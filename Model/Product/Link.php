@@ -1,10 +1,4 @@
 <?php
-/**
- * Copyright © Mageplugins LLC. All rights reserved.
- * See COPYING.txt for license details.
- * http://www.mageplugins.com | support@mageplugins.com
- */
-
 namespace Mageplugins\RelatedProducts\Model\Product;
 
 class Link extends \Magento\Catalog\Model\Product\Link

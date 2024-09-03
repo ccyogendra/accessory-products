@@ -1,10 +1,4 @@
 <?php
-/**
- * Copyright © Mageplugins LLC. All rights reserved.
- * See COPYING.txt for license details.
- * http://www.mageplugins.com | support@mageplugins.com
- */
-
 namespace Mageplugins\RelatedProducts\Model\ProductLink\CollectionProvider;
 
 use Magento\Catalog\Model\Product;

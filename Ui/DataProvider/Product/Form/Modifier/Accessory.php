@@ -1,10 +1,4 @@
 <?php
-/**
- * Copyright © Mageplugins LLC. All rights reserved.
- * See COPYING.txt for license details.
- * http://www.mageplugins.com | support@mageplugins.com
- */
-
 namespace Mageplugins\RelatedProducts\Ui\DataProvider\Product\Form\Modifier;
 
 use Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Related;
