@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Mageplugins\RelatedProducts\Model\Resolver\Batch;
+namespace Mageplugin\RelatedProducts\Model\Resolver\Batch;
 
-use Mageplugins\RelatedProducts\Model\Product\Link;
+use Mageplugin\RelatedProducts\Model\Product\Link;
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Query\Resolver\BatchResponse;
 use Magento\Framework\GraphQl\Query\Resolver\ContextInterface;

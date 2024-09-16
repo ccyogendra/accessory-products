@@ -1,5 +1,5 @@
 <?php
-namespace Mageplugins\RelatedProducts\Ui\DataProvider\Product\Related;
+namespace Mageplugin\RelatedProducts\Ui\DataProvider\Product\Related;
 
 use Magento\Catalog\Ui\DataProvider\Product\Related\AbstractDataProvider;
 

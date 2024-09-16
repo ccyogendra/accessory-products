@@ -1,5 +1,5 @@
 <?php
-namespace Mageplugins\RelatedProducts\Ui\DataProvider\Product\Form\Modifier;
+namespace Mageplugin\RelatedProducts\Ui\DataProvider\Product\Form\Modifier;
 
 use Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Related;
 use Magento\Ui\Component\Form\Fieldset;

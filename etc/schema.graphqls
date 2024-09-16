@@ -4,5 +4,5 @@ interface ProductInterface {
     sku: String
     # Add other fields as needed
 
-    accessory_products: [ProductInterface] @doc(description: "An array of products to be displayed as Accessory Products.") @resolver(class: "Mageplugins\\RelatedProducts\\Model\\Resolver\\Batch\\AccessoryProducts")
+    accessory_products: [ProductInterface] @doc(description: "An array of products to be displayed as Accessory Products.") @resolver(class: "Mageplugin\\RelatedProducts\\Model\\Resolver\\Batch\\AccessoryProducts")
 }

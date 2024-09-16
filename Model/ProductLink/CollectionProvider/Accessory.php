@@ -1,20 +1,20 @@
 <?php
-namespace Mageplugins\RelatedProducts\Model\ProductLink\CollectionProvider;
+namespace Mageplugin\RelatedProducts\Model\ProductLink\CollectionProvider;
 
 use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\ProductLink\CollectionProviderInterface;
 
 class Accessory implements CollectionProviderInterface
 {
-    /** @var \Mageplugins\RelatedProducts\Model\Accessory */
+    /** @var \Mageplugin\RelatedProducts\Model\Accessory */
     protected $accessoryModel;
 
     /**
      * Accessory constructor.
-     * @param \Mageplugins\RelatedProducts\Model\Accessory $accessoryModel
+     * @param \Mageplugin\RelatedProducts\Model\Accessory $accessoryModel
      */
     public function __construct(
-        \Mageplugins\RelatedProducts\Model\Accessory $accessoryModel
+        \Mageplugin\RelatedProducts\Model\Accessory $accessoryModel
     ) {
         $this->accessoryModel = $accessoryModel;
     }

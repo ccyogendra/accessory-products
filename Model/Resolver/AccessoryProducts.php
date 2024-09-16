@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Mageplugins\RelatedProducts\Model\Resolver;
+namespace Mageplugin\RelatedProducts\Model\Resolver;
 
-use Mageplugins\RelatedProducts\Model\Product\Link;
+use Mageplugin\RelatedProducts\Model\Product\Link;
 use Magento\CatalogGraphQl\Model\Resolver\Product\ProductFieldsSelector;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\RelatedProductGraphQl\Model\DataProvider\RelatedProductDataProvider;

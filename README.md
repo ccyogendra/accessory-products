@@ -1,8 +1,8 @@
-# Mageplugins_RelatedProducts
+# Mageplugin_RelatedProducts
 
 ## Overview
 
-`Mageplugins_RelatedProducts` is a Magento 2 extension designed to enhance the functionality of related products. This module provides an advanced system to link accessory products with main products, making it easier for customers to find and purchase complementary items.
+`Mageplugin_RelatedProducts` is a Magento 2 extension designed to enhance the functionality of related products. This module provides an advanced system to link accessory products with main products, making it easier for customers to find and purchase complementary items.
 
 ## Features
 
@@ -17,7 +17,7 @@
 1. Create the necessary directory structure inside your Magento `code` directory:
 
     ```bash
-    mkdir -p app/code/Mageplugins
+    mkdir -p app/code/Mageplugin
     ```
 
 2. Clone the extension into this directory:
@@ -29,14 +29,14 @@
 3. Rename the cloned folder:
 
     ```bash
-    mv app/code/Mageplugins/accessory-products app/code/Mageplugins/RelatedProducts
+    mv app/code/Mageplugin/accessory-products app/code/Mageplugin/RelatedProducts
     ```
 Or Manually   
 Directory rename folder accessory-products to RelatedProducts
 
 # Enable the Module
 ```Bash
-php bin/magento module:enable Mageplugins_RelatedProducts
+php bin/magento module:enable Mageplugin_RelatedProducts
 php bin/magento setup:upgrade
 ```
 

@@ -1,10 +1,10 @@
 {
-    "name": "mageplugins/link-product",
+    "name": "mageplugin/link-product",
     "description": "Custom product relation for magento 2",
-    "homepage": "https://www.mageplugins.com/",
+    "homepage": "https://www.mageplugin.com/",
     "support": {
-        "email": "support@mageplugins.com",
-        "issues": "https://github.com/mageplugins/magento2-link-product/issues"
+        "email": "support@mageplugin.com",
+        "issues": "https://github.com/mageplugin/magento2-link-product/issues"
     },
     "license": [
         "OSL-3.0",
@@ -13,8 +13,8 @@
     "authors": [
         {
             "name": "Renon Stewart",
-            "email": "renon@mageplugins.com",
-            "homepage": "http://www.mageplugins.com/",
+            "email": "renon@mageplugin.com",
+            "homepage": "http://www.mageplugin.com/",
             "role": "Leader"
         }
     ],
@@ -31,7 +31,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Mageplugins\\RelatedProducts\\": ""
+            "Mageplugin\\RelatedProducts\\": ""
         }
     }
 }

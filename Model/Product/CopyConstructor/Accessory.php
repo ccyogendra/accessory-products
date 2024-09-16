@@ -1,5 +1,5 @@
 <?php
-namespace Mageplugins\RelatedProducts\Model\Product\CopyConstructor;
+namespace Mageplugin\RelatedProducts\Model\Product\CopyConstructor;
 
 use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\Product\CopyConstructorInterface;

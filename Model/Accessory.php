@@ -1,10 +1,10 @@
 <?php
-namespace Mageplugins\RelatedProducts\Model;
+namespace Mageplugin\RelatedProducts\Model;
 
 use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\ResourceModel\Product\Link\Collection;
 use Magento\Framework\DataObject;
-use Mageplugins\RelatedProducts\Model\Product\Link;
+use Mageplugin\RelatedProducts\Model\Product\Link;
 
 class Accessory extends DataObject
 {

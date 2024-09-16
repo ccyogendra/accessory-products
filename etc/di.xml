@@ -4,7 +4,7 @@
     <type name="Magento\Catalog\Model\Product\CopyConstructor\Composite">
         <arguments>
             <argument name="constructors" xsi:type="array">
-                <item name="accessory" xsi:type="string">Mageplugins\RelatedProducts\Model\Product\CopyConstructor\Accessory</item>
+                <item name="accessory" xsi:type="string">Mageplugin\RelatedProducts\Model\Product\CopyConstructor\Accessory</item>
             </argument>
         </arguments>
     </type>
@@ -12,7 +12,7 @@
     <type name="Magento\Catalog\Model\Product\LinkTypeProvider">
         <arguments>
             <argument name="linkTypes" xsi:type="array">
-                <item name="accessory" xsi:type="const">Mageplugins\RelatedProducts\Model\Product\Link::LINK_TYPE_ACCESSORY</item>
+                <item name="accessory" xsi:type="const">Mageplugin\RelatedProducts\Model\Product\Link::LINK_TYPE_ACCESSORY</item>
             </argument>
         </arguments>
     </type>
@@ -20,13 +20,13 @@
     <type name="Magento\Catalog\Model\ProductLink\CollectionProvider">
         <arguments>
             <argument name="providers" xsi:type="array">
-                <item name="accessory" xsi:type="object">Mageplugins\RelatedProducts\Model\ProductLink\CollectionProvider\Accessory</item>
+                <item name="accessory" xsi:type="object">Mageplugin\RelatedProducts\Model\ProductLink\CollectionProvider\Accessory</item>
             </argument>
         </arguments>
     </type>
 
     <type name="Magento\CatalogImportExport\Model\Import\Product">
         <plugin name="addLinkType"
-                type="Mageplugins\RelatedProducts\Plugin\CatalogImportExport\Model\Import\Product"/>
+                type="Mageplugin\RelatedProducts\Plugin\CatalogImportExport\Model\Import\Product"/>
     </type>
 </config>

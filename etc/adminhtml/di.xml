@@ -5,7 +5,7 @@
         <arguments>
             <argument name="modifiers" xsi:type="array">
                 <item name="accessory" xsi:type="array">
-                    <item name="class" xsi:type="string">Mageplugins\RelatedProducts\Ui\DataProvider\Product\Form\Modifier\Accessory</item>
+                    <item name="class" xsi:type="string">Mageplugin\RelatedProducts\Ui\DataProvider\Product\Form\Modifier\Accessory</item>
                     <item name="sortOrder" xsi:type="number">120</item>
                 </item>
             </argument>

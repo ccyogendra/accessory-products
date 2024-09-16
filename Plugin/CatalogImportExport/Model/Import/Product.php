@@ -1,8 +1,8 @@
 <?php
-namespace Mageplugins\RelatedProducts\Plugin\CatalogImportExport\Model\Import;
+namespace Mageplugin\RelatedProducts\Plugin\CatalogImportExport\Model\Import;
 
 use Magento\CatalogImportExport\Model\Import\Product as ProductImportExport;
-use Mageplugins\RelatedProducts\Model\Product\Link;
+use Mageplugin\RelatedProducts\Model\Product\Link;
 
 class Product
 {

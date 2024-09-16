@@ -1,5 +1,5 @@
 <?php
-namespace Mageplugins\RelatedProducts\Model\Product;
+namespace Mageplugin\RelatedProducts\Model\Product;
 
 class Link extends \Magento\Catalog\Model\Product\Link
 {

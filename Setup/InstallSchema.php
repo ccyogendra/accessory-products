@@ -1,11 +1,11 @@
 <?php
-namespace Mageplugins\RelatedProducts\Setup;
+namespace Mageplugin\RelatedProducts\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
-use Mageplugins\RelatedProducts\Model\Product\Link;
-use Mageplugins\RelatedProducts\Ui\DataProvider\Product\Form\Modifier\Accessory;
+use Mageplugin\RelatedProducts\Model\Product\Link;
+use Mageplugin\RelatedProducts\Ui\DataProvider\Product\Form\Modifier\Accessory;
 
 class InstallSchema implements InstallSchemaInterface
 {

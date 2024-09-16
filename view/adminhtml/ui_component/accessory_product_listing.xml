@@ -9,7 +9,7 @@
     </argument>
     <dataSource name="accessory_product_listing_data_source">
         <argument name="dataProvider" xsi:type="configurableObject">
-            <argument name="class" xsi:type="string">Mageplugins\RelatedProducts\Ui\DataProvider\Product\Related\AccessoryDataProvider</argument>
+            <argument name="class" xsi:type="string">Mageplugin\RelatedProducts\Ui\DataProvider\Product\Related\AccessoryDataProvider</argument>
             <argument name="name" xsi:type="string">accessory_product_listing_data_source</argument>
             <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
             <argument name="requestFieldName" xsi:type="string">id</argument>

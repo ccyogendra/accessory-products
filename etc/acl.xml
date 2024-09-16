@@ -7,8 +7,8 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Mageplugins_LinkProduct::config_mageplugins_link_product"
-                                      title="Mageplugins Link Products"/>
+                            <resource id="Mageplugin_LinkProduct::config_mageplugin_link_product"
+                                      title="Mageplugin Link Products"/>
                         </resource>
                     </resource>
                 </resource>
